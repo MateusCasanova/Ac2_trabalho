@@ -24,10 +24,6 @@ function App() {
   let gameComponent;
   if (currentGame === 'CoinFlip') {
     gameComponent = <CoinFlip loggedInUser={loggedInUser} />;
-  } else if (currentGame === 'Limbo') {
-    gameComponent = <Limbo loggedInUser={loggedInUser} />;
-  } else if (currentGame === 'Crash') {
-    gameComponent = <Crash loggedInUser={loggedInUser} />;
   }
 
 
