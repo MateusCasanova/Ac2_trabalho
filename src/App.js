@@ -2,12 +2,9 @@ import React, { useState, useEffect } from 'react';
 import './App.css';
 import Header from './Header';
 import CoinFlip from './CoinFlip';
-import Limbo from './Limbo';
 import RegisterPopup from './RegisterPopup';
 import LoginPopup from './LoginPopup';
 import Footer from './Footer';
-import Crash from './Crash';
-
 
 function App() {
 
